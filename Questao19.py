@@ -8,7 +8,7 @@ def fibonacci(x):
         return fibonacci(x-2) + fibonacci(x-1)
 
 
-# Teste                                                 # Resposta
-print(fibonacci(0))                                     # 0
-print(fibonacci(1))                                     # 1
-print(fibonacci(10))                                    # 55
+# Testes                  # Respostas
+print(fibonacci(0))       # 0
+print(fibonacci(1))       # 1
+print(fibonacci(10))      # 55

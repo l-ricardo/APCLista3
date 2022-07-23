@@ -6,7 +6,7 @@ def par_impar(n):
         return 'Levinho'
 
 
-# Teste                                                 # Resposta
-print(par_impar(9))                                     # Levinho
-print(par_impar(2))                                     # Nunao
-print(par_impar(1))                                     # Levinho
+# Teste                    # Resposta
+print(par_impar(9))        # Levinho
+print(par_impar(2))        # Nunao
+print(par_impar(1))        # Levinho

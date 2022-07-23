@@ -1,7 +1,8 @@
 # Questao 11
 print(input().upper())
 
-# Teste                                                 # Resposta
-# UnB                                                   # UNB
-# Socorro                                               # SOCORRO
-# help!                                                 # HELP!
+
+# Testes               # Respostas
+# UnB                  # UNB
+# Socorro              # SOCORRO
+# help!                # HELP!

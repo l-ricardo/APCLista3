@@ -5,6 +5,7 @@ def soma_harmonica(x):
     else:
         return 1/x + soma_harmonica((x-1))
 
+
 # Testes                 # Respostas
 print(soma_harmonica(6)) # 2.4499999999999997
 print(soma_harmonica(5)) # 2.283333333333333

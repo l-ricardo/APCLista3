@@ -5,6 +5,7 @@ def anobissexto(ano):
     else:
         return 'Nao'
 
+
 # Testes                 # Respostas
 print(anobissexto(2020)) # Sim
 print(anobissexto(2021)) # Nao

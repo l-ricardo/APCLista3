@@ -11,6 +11,7 @@ def divisor_de_codigo(codigo):
 
 linhas = int(input())
 decodificado = ''
+
 for i in range(linhas):
     letra_numero = divisor_de_codigo(input())
     for i in range(len(letra_numero)):

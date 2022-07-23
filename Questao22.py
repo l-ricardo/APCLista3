@@ -12,7 +12,8 @@ def pattern(n):
         print(n)
         n += 5
 
-# Testes                  # Respostas
-pattern(16)               # 16 / 11 / 6 / 1 / -4 / 1 / 6 / 11 / 16
-pattern(10)               # 10 / 5 / 0 / 5 / 10
-pattern(3)                # 3 / -2 / 3
+
+# Testes        # Respostas
+pattern(16)     # 16 / 11 / 6 / 1 / -4 / 1 / 6 / 11 / 16
+pattern(10)     # 10 / 5 / 0 / 5 / 10
+pattern(3)      # 3 / -2 / 3

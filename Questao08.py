@@ -5,8 +5,10 @@ tem_maiuscula = False
 tem_minuscula = False
 tem_numero = False
 tem_ponto = False
+
 if len(senha) > 5 and len(senha) < 37:
     tamanho_certo = True
+
 for i in range(len(senha)):
     if senha[i] in list('abclefghijklmnopqrstuvwxyz'):
         tem_maiuscula = True
@@ -22,7 +24,8 @@ if tamanho_certo and tem_maiuscula and tem_minuscula and tem_numero and not tem_
 else:
     print('Senha invalida.')
 
-# Teste                                       # Resposta
-# AbcdEfgh99                                  # Senha valida.
-# Aass9                                       # Senha invalida.
-# Aassd9                                      # Senha valida.
+
+# Testes           # Respostas
+# AbcdEfgh99       # Senha valida.
+# Aass9            # Senha invalida.
+# Aassd9           # Senha valida.

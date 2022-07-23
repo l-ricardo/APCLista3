@@ -7,7 +7,7 @@ def remove_duplicatas(lista):
     return result
 
 
-# Testes                                                # Respostas
-print(remove_duplicatas([1,2,2,3]))                     # [1, 2, 3]
-print(remove_duplicatas([1,1,1]))                       # [1]
-print(remove_duplicatas([0,0,1,1,2,2,3,3]))             # [0, 1, 2, 3]
+# Testes                                       # Respostas
+print(remove_duplicatas([1,2,2,3]))            # [1, 2, 3]
+print(remove_duplicatas([1,1,1]))              # [1]
+print(remove_duplicatas([0,0,1,1,2,2,3,3]))    # [0, 1, 2, 3]

@@ -9,6 +9,7 @@ def aprovacao(notas):
 
 boletim_turma = []
 tamanho_turma = int(input())
+
 for i in range(tamanho_turma):
     boletim_turma.append(aprovacao(input()))
 
@@ -17,6 +18,7 @@ for i in range(len(boletim_turma)):
         print(f'O ALUNO {i} FOI APROVADO')
     else:
         print(f'O ALUNO {i} FOI REPROVADO')
+
 
 # Teste                                                  # Resposta
 # 3 / 10.0 10.0 10.0 / 10.0 10.0 1.0 / 7.0 7.0 6.99      # O ALUNO 0 FOI APROVADO / O ALUNO 1 FOI APROVADO / O ALUNO 2 FOI REPROVADO

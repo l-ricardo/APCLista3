@@ -1,5 +1,6 @@
-# Questao 36
+# Questao 40
 num = int(input())
+
 if num==1:
     result = 'Faina'
 elif num==2:
@@ -11,10 +12,11 @@ else:
             break
         else:
             result = 'Emidio'
+
 print(result)
 
 
-# Testes                                    # Respostas
-# 2                                         # Emidio
-# 3                                         # Emidio
-# 4                                         # Faina
+# Testes       # Respostas
+# 2            # Emidio
+# 3            # Emidio
+# 4            # Faina

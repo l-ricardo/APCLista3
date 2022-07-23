@@ -1,5 +1,6 @@
 # Questao 21
 n = int(input())
+
 for i in range(n):
     if i==0:
         continue
@@ -12,5 +13,6 @@ for i in range(n):
     else:
         print(i)
 
-# Testes                  # Respostas
-# 6                       # 1 / 2 / Fizz / 4 / Buzz / Fizz
+
+# Teste    # Resposta
+# 6        # 1 / 2 / Fizz / 4 / Buzz / Fizz

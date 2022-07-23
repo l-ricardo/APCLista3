@@ -10,6 +10,7 @@ def ppa(a,b):
         return 'Sem ganhador'
     else:
         return 'Aniquilacao mutua'
+   
         
 # Testes                    # Respostas
 print(ppa(1, 1))            # Sem ganhador

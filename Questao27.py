@@ -13,7 +13,6 @@ def ehPrimo(num):
                 result = 1
     return result
 
-
 def divisoresPrimos(num):
     result = 0
     for i in range(2, num-1):
@@ -21,13 +20,14 @@ def divisoresPrimos(num):
             result += 1
     return result
 
+
 # Testes                    # Respostas
-print(ehPrimo(3))           #1
-print(ehPrimo(4))           #0
-print(ehPrimo(5))           #1
-print(ehPrimo(6))           #0
-print(divisoresPrimos(4))   #1
-print(divisoresPrimos(6))   #2
-print(divisoresPrimos(8))   #1
-print(divisoresPrimos(9))   #1
-print(divisoresPrimos(10))  #2
+print(ehPrimo(3))           # 1
+print(ehPrimo(4))           # 0
+print(ehPrimo(5))           # 1
+print(ehPrimo(6))           # 0
+print(divisoresPrimos(4))   # 1
+print(divisoresPrimos(6))   # 2
+print(divisoresPrimos(8))   # 1
+print(divisoresPrimos(9))   # 1
+print(divisoresPrimos(10))  # 2

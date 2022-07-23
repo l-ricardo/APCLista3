@@ -1,15 +1,13 @@
 # Questao 03
 n = int(input())
-vetu = list(map(int,input().strip().split()))[:n]
-vetv = list(map(int,input().strip().split()))[:n]
-# print('testando')
-# print(n)
-# print(vetu)
-# print(vetv)
+vet_u = list(map(int,input().strip().split()))[:n]
+vet_v = list(map(int,input().strip().split()))[:n]
 provet = 0
-for termou in vetu:
-    for termov in vetv:
-        provet = provet + termou*termov
+for i in range(n):
+    provet += vet_u[i]*vet_v[i]
+if provet==0:
+    print('ortogonais')
+else:
     print(provet)
 
 # Testes                                       # Respostas
